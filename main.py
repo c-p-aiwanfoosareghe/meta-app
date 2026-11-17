@@ -1,8 +1,8 @@
 import os
 import secrets
 from datetime import datetime, timedelta
-from fastapi import FastAPI, Cookie, Response, HTMLResponse
-from fastapi.responses import RedirectResponse
+from fastapi import FastAPI, Cookie, Response
+from fastapi.responses import HTMLResponse, RedirectResponse
 import httpx
 from dotenv import load_dotenv
 from supabase import create_client, Client
