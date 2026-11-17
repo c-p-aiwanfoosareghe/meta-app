@@ -15,7 +15,7 @@ app = FastAPI()
 PORT = int(os.getenv("PORT", 3000))
 META_APP_ID = os.getenv("META_APP_ID")
 META_APP_SECRET = os.getenv("META_APP_SECRET")
-META_REDIRECT_URI = os.getenv("META_REDIRECT_URI", "http://meta-app-production-2ada07e7.up.railway.app/auth/facebook/callback")
+META_REDIRECT_URI = os.getenv("META_REDIRECT_URI", "https://meta-app-production-2ada07e7.up.railway.app/auth/facebook/callback")
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
