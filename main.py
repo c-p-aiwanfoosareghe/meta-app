@@ -52,7 +52,7 @@ async def facebook_login(response: Response):
         key="oauth_state",
         value=state,
         httponly=True,
-        secure=False,  # Set to True in production over HTTPS
+        secure=True,  # Set to True in production over HTTPS
         samesite="lax",
         max_age=600
     )
